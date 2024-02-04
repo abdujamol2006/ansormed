@@ -1,0 +1,61 @@
+/***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Html*/
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+/* Body text */
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #444;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+/*Main*/
+main {
+  flex-grow: 1;
+}
+/*ul,ol*/
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*container*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/*btn*/
+.btn {
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 2px solid #de2e54;
+  background: #de2e54;
+}
+.btn: :hover {
+  color: #de2e54;
+  background: #fff;
+  transition: 0.5s linear;
+}
